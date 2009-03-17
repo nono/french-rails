@@ -1,0 +1,13 @@
+FrenchRails
+===========
+
+A plugin for Rails for simple french localization.
+
+
+Ce plugin permet de profiter de l'internationalisation de Rails pour des
+applications entièrement en français. Il modifie les règles d'accord des
+pluriels de Rails pour se conformer à la grammaire française, et il charge les
+traductions des termes utilisés par Rails.
+
+
+Copyright (c) 2009 Bruno Michel, released under the MIT license
