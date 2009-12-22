@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
      "README",
      "Rakefile",
      "VERSION",
-     "french-rails.gemspec",
+     "french_rails.gemspec",
      "init.rb",
      "lib/french_rails.rb",
      "lib/french_rails/action_controller/resources_path_names.rb",
