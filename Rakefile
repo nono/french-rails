@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "french-rails"
+    gem.name = "french_rails"
     gem.summary = %Q{Simple french localization for Rails}
     gem.description = %Q{A plugin for Ruby on Rails for simple french localization}
     gem.email = "bmichel@menfin.info"

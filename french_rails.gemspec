@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{french-rails}
+  s.name = %q{french_rails}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
      "lib/french_rails/action_controller/resources_path_names.rb",
      "lib/french_rails/action_view/text_helper.rb",
      "lib/french_rails/backend/simple.rb",
+     "lib/french_rails/i18n.rb",
      "locales/fr_rails.yml"
   ]
   s.homepage = %q{http://github.com/nono/french-rails}
