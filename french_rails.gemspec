@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{french_rails}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bruno Michel"]
-  s.date = %q{2009-12-23}
+  s.date = %q{2010-02-11}
   s.description = %q{A plugin for Ruby on Rails for simple french localization}
   s.email = %q{bmichel@menfin.info}
   s.extra_rdoc_files = [
@@ -28,8 +28,7 @@ Gem::Specification.new do |s|
      "lib/french_rails/action_controller/resources_path_names.rb",
      "lib/french_rails/action_view/text_helper.rb",
      "lib/french_rails/backend/simple.rb",
-     "lib/french_rails/i18n.rb",
-     "locales/fr_rails.yml"
+     "lib/french_rails/i18n.rb"
   ]
   s.homepage = %q{http://github.com/nono/french-rails}
   s.rdoc_options = ["--charset=UTF-8"]

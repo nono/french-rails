@@ -1,8 +1,11 @@
-require 'i18n/backend/simple'
+require 'i18n/backend/base'
+require 'i18n/backend/fast'
 
 module FrenchRails
   module Backend
-    class Simple < I18n::Backend::Simple
+    class Simple
+      include I18n::Backend::Base
+      include I18n::Backend::Fast
 
       # The french grammar rules are not the same that for english.
       # For our concern, the main difference is 0:

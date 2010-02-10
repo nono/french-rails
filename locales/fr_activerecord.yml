@@ -1,0 +1,9 @@
+en:
+  attributes:
+    created_at: "Créé le"
+    updated_at: "Modifié le"
+  activerecord:
+    errors:
+      messages:
+        taken: "n'est pas disponible"
+        record_invalid: "Échec de la validation : {{errors}}"

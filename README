@@ -4,17 +4,20 @@ FrenchRails
 Summary (in english)
 --------------------
 
-A plugin for Rails for simple french localization.
+A plugin for Rails3 for simple french localization.
 
 
 Description (en français)
 -------------------------
 
-Ce plugin permet de profiter de l'internationalisation de Rails pour des
+Ce plugin permet de profiter de l'internationalisation de Rails3 pour des
 applications entièrement en français. Il modifie les règles d'accord des
 pluriels de Rails pour se conformer à la grammaire française, et il charge les
 traductions des termes utilisés par Rails. Il traduit également les 'new' et
 'edit' se trouvant dans les URL générées par Rails.
 
+Attention, depuis la version 0.2, ce plugin n'est compatible qu'avec Rails 3.
+Vous pouvez toujours utiliser FrenchRails-0.1.0 pour Rails 2.
 
-Copyright (c) 2009 Bruno Michel <bmichel@menfin.info>, released under the MIT license
+
+Copyright (c) 2010 Bruno Michel <bmichel@menfin.info>, released under the MIT license
