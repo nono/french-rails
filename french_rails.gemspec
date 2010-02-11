@@ -25,10 +25,15 @@ Gem::Specification.new do |s|
      "french_rails.gemspec",
      "init.rb",
      "lib/french_rails.rb",
-     "lib/french_rails/action_controller/resources_path_names.rb",
+     "lib/french_rails/action_dispatch/resources_path_names.rb",
      "lib/french_rails/action_view/text_helper.rb",
      "lib/french_rails/backend/simple.rb",
-     "lib/french_rails/i18n.rb"
+     "lib/french_rails/i18n.rb",
+     "locales/fr_actionpack.yml",
+     "locales/fr_activemodel.yml",
+     "locales/fr_activerecord.yml",
+     "locales/fr_activesupport.yml",
+     "locales/fr_responders.yml"
   ]
   s.homepage = %q{http://github.com/nono/french-rails}
   s.rdoc_options = ["--charset=UTF-8"]

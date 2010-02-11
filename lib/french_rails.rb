@@ -3,10 +3,12 @@ module FrenchRails
   class Railtie < Rails::Railtie
     railtie_name :french_rails
 
-    initializer :load_french_rails do
+    initializer :load_french_rails => :load_application_initializers do
       require 'french_rails/backend/simple'
       require 'french_rails/action_view/text_helper'
-      require 'french_rails/action_controller/resources_path_names'
+      require 'french_rails/i18n'
     end
+
+    require 'french_rails/action_dispatch/resources_path_names'
   end
 end

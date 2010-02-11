@@ -69,8 +69,8 @@ fr:
   errors:
     template:
       header:
-        one:   "Impossible d'enregistrer ce {{model}}: 1 erreur"
-        other: "Impossible d'enregistrer ce {{model}}: {{count}} erreurs"
+        one:   "Impossible d'enregistrer ce {{model}} : 1 erreur"
+        other: "Impossible d'enregistrer ce {{model}} : {{count}} erreurs"
       body: "Veuillez vérifier les champs suivants : "
 
   helpers:
