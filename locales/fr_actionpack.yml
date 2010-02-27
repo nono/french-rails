@@ -77,7 +77,7 @@ fr:
     select:
       prompt: "Veuillez sélectionner"
     submit:
-      create: "Créer {{model}}"
-      update: "Modifier {{model}}"
-      submit: "Enregistrer {{model}}"
+      create: "Créer un {{model}}"
+      update: "Modifier ce {{model}}"
+      submit: "Enregistrer ce {{model}}"
 
