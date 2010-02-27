@@ -10,6 +10,7 @@ begin
     gem.email = "bmichel@menfin.info"
     gem.homepage = "http://github.com/nono/french-rails"
     gem.authors = ["Bruno Michel"]
+    gem.add_dependency "i18n", ">= 0.3.6"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
