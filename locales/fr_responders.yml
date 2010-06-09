@@ -3,12 +3,11 @@ fr:
   flash:
     actions:
       create:
-        notice: "{{resource_name}} créé(e)"
-        alert:  "{{resource_name}} impossible à créer"
+        notice: "%{resource_name} créé(e)"
+        alert:  "%{resource_name} impossible à créer"
       update:
-        notice: "{{resource_name}} mis(e) à jour"
-        alert:  "{{resource_name}} impossible à mettre à jour"
+        notice: "%{resource_name} mis(e) à jour"
+        alert:  "%{resource_name} impossible à mettre à jour"
       destroy:
-        notice: "{{resource_name}} supprimé(e)"
-        alert:  "{{resource_name}} impossible à supprimer"
-
+        notice: "%{resource_name} supprimé(e)"
+        alert:  "%{resource_name} impossible à supprimer"

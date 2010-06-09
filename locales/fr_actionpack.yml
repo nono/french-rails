@@ -4,14 +4,29 @@ fr:
       separator: ","
       delimiter: " "
       precision: 3
+      significant: false
+      strip_insignificant_zeros: false
     currency:
       format:
         format: "%n %u"
         unit: "€"
+        separator: ","
+        delimiter: " "
         precision: 2
+        significant: false
+        strip_insignificant_zeros: false
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
     human:
       format:
+        delimiter: ""
         precision: 2
+        significant: true
+        strip_insignificant_zeros: true
       storage_units:
         format: "%n %u"
         units:
@@ -22,6 +37,15 @@ fr:
           mb: "Mo"
           gb: "Go"
           tb: "To"
+      decimal_units:
+        format: "%n %u"
+        units:
+          unit: ""
+          thousand: Millier
+          million: Million
+          billion: Milliard
+          trillion: Mille milliard
+          quadrillion: Million de milliard
 
   datetime:
     distance_in_words:
@@ -29,35 +53,38 @@ fr:
       less_than_x_seconds:
         zero:  "moins d'une seconde"
         one:   "moins d'une seconde"
-        other: "moins de {{count}} secondes"
+        other: "moins de %{count} secondes"
       x_seconds:
         one:   "1 seconde"
-        other: "{{count}} secondes"
+        other: "%{count} secondes"
       less_than_x_minutes:
         zero:  "moins d'une minute"
         one:   "moins d'une minute"
-        other: "moins de {{count}} minutes"
+        other: "moins de %{count} minutes"
       x_minutes:
         one:   "1 minute"
-        other: "{{count}} minutes"
+        other: "%{count} minutes"
       about_x_hours:
         one:   "environ une heure"
-        other: "environ {{count}} heures"
+        other: "environ %{count} heures"
       x_days:
         one:   "1 jour"
-        other: "{{count}} jours"
+        other: "%{count} jours"
       about_x_months:
         one:   "environ un mois"
-        other: "environ {{count}} mois"
+        other: "environ %{count} mois"
       x_months:
         one:   "1 mois"
-        other: "{{count}} mois"
+        other: "%{count} mois"
       about_x_years:
         one:   "environ un an"
-        other: "environ {{count}} ans"
+        other: "environ %{count} ans"
       over_x_years:
         one:   "plus d'un an"
-        other: "plus de {{count}} ans"
+        other: "plus de %{count} ans"
+      almost_x_years:
+        one:   "presqu'un an"
+        other: "presque %{count} ans"
     prompts:
       year:   "Année"
       month:  "Mois"
@@ -69,15 +96,14 @@ fr:
   errors:
     template:
       header:
-        one:   "Impossible d'enregistrer ce {{model}} : 1 erreur"
-        other: "Impossible d'enregistrer ce {{model}} : {{count}} erreurs"
+        one:   "Impossible d'enregistrer ce %{model} : 1 erreur"
+        other: "Impossible d'enregistrer ce %{model} : %{count} erreurs"
       body: "Veuillez vérifier les champs suivants : "
 
   helpers:
     select:
       prompt: "Veuillez sélectionner"
     submit:
-      create: "Créer un {{model}}"
-      update: "Modifier ce {{model}}"
-      submit: "Enregistrer ce {{model}}"
-
+      create: "Créer un %{model}"
+      update: "Modifier ce %{model}"
+      submit: "Enregistrer ce %{model}"

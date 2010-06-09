@@ -6,4 +6,4 @@ fr:
     errors:
       messages:
         taken: "n'est pas disponible"
-        record_invalid: "Échec de la validation : {{errors}}"
+        record_invalid: "Échec de la validation : %{errors}"
