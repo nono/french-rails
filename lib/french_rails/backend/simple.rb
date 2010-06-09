@@ -1,11 +1,11 @@
 require 'i18n/backend/base'
-require 'i18n/backend/fast'
+require 'i18n/backend/memoize'
 
 module FrenchRails
   module Backend
     class Simple
       include I18n::Backend::Base
-      include I18n::Backend::Fast
+      include I18n::Backend::Memoize
 
       # The french grammar rules are not the same that for english.
       # For our concern, the main difference is 0:
@@ -22,4 +22,3 @@ module FrenchRails
     end
   end
 end
-
