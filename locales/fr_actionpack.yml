@@ -41,11 +41,11 @@ fr:
         format: "%n %u"
         units:
           unit: ""
-          thousand: Millier
-          million: Million
-          billion: Milliard
-          trillion: Mille milliard
-          quadrillion: Million de milliard
+          thousand: "Millier"
+          million: "Million"
+          billion: "Milliard"
+          trillion: "Mille milliard"
+          quadrillion: "Million de milliard"
 
   datetime:
     distance_in_words:
@@ -92,13 +92,6 @@ fr:
       hour:   "Heure"
       minute: "Minute"
       second: "Seconde"
-
-  errors:
-    template:
-      header:
-        one:   "Impossible d'enregistrer ce %{model} : 1 erreur"
-        other: "Impossible d'enregistrer ce %{model} : %{count} erreurs"
-      body: "Veuillez vérifier les champs suivants : "
 
   helpers:
     select:
