@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name             = "french_rails"
-  s.version          = "0.2.4"
-  s.date             = "2010-08-22"
+  s.version          = "0.2.5"
+  s.date             = "2010-09-05"
   s.homepage         = "http://github.com/nono/french-rails"
   s.authors          = "Bruno Michel"
   s.email            = "bmichel@menfin.info"
