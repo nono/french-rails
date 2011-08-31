@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name             = "french_rails"
-  s.version          = "0.2.6"
+  s.version          = "0.2.7"
   s.date             = Time.now.utc.strftime("%Y-%m-%d")
   s.homepage         = "http://github.com/nono/french-rails"
   s.authors          = "Bruno Michel"
@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.files            = Dir["MIT-LICENSE", "README", "Gemfile", "init.rb", "lib/**/*.rb", "locales/*.yml"]
   s.require_paths    = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.add_dependency "rails", "~>3.0.0"
+  s.add_dependency "rails", "~>3.0"
 end
