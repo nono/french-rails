@@ -1,1 +1,0 @@
-require 'french_rails'

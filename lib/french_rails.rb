@@ -1,4 +1,6 @@
 # FrenchRails
+require 'french_rails/version'
+
 module FrenchRails
   class Railtie < Rails::Railtie
     initializer :load_french_rails => :load_application_initializers do
