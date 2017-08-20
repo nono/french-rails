@@ -4,7 +4,7 @@ FrenchRails
 Summary (in english)
 --------------------
 
-A plugin for Rails4 for simple french localization.
+A plugin for Rails for simple french localization.
 
 
 Description (en français)
@@ -19,6 +19,7 @@ traductions des termes utilisés par Rails. Il traduit également les 'new' et
 Attention à utiliser la bonne version du plugin en fonction de la version de
 Rails :
 
+- FrenchRails 0.4 est compatible avec Rails 5
 - FrenchRails 0.3 est compatible avec Rails 4
 - FrenchRails 0.2 est compatible avec Rails 3
 - FrenchRails 0.1 est compatible avec Rails 2
