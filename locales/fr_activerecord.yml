@@ -1,14 +1,14 @@
 fr:
   attributes:
-    created_at: "Créé le"
-    updated_at: "Modifié le"
+    created_at: "Créé le"
+    updated_at: "Modifié le"
   errors:
     messages:
-      taken: "n'est pas disponible"
+      taken: "n’est pas disponible"
   activerecord:
     errors:
       messages:
-        record_invalid: "Échec de la validation : %{errors}"
+        record_invalid: "Échec de la validation : %{errors}"
         restrict_dependent_destroy:
-          one: "Suppression impossible : un autre enregistrement est lié"
-          many: "Suppression impossible : d'autres enregistrements sont liés"
+          one: "Suppression impossible : un autre enregistrement est lié"
+          many: "Suppression impossible : d’autres enregistrements sont liés"
