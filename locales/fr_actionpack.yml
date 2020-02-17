@@ -2,23 +2,23 @@ fr:
   number:
     format:
       separator: ","
-      delimiter: " "
+      delimiter: " "
       precision: 3
       significant: false
       strip_insignificant_zeros: false
     currency:
       format:
-        format: "%n %u"
+        format: "%n %u"
         unit: "€"
         separator: ","
-        delimiter: " "
+        delimiter: " "
         precision: 2
         significant: false
         strip_insignificant_zeros: false
     percentage:
       format:
         delimiter: ""
-        format: "%n%"
+        format: "%n %"
     precision:
       format:
         delimiter: ""
@@ -29,63 +29,65 @@ fr:
         significant: true
         strip_insignificant_zeros: true
       storage_units:
-        format: "%n %u"
+        format: "%n %u"
         units:
           byte:
-            one:   "Octet"
-            other: "Octets"
+            one:   "octet"
+            other: "octets"
           kb: "ko"
           mb: "Mo"
           gb: "Go"
           tb: "To"
+          pb: "Po"
+          eb: "Eo"
       decimal_units:
-        format: "%n %u"
+        format: "%n %u"
         units:
           unit: ""
-          thousand: "Millier"
-          million: "Million"
-          billion: "Milliard"
-          trillion: "Mille milliard"
-          quadrillion: "Million de milliard"
+          thousand: "mille"
+          million: "million(s)"
+          billion: "milliard(s)"
+          trillion: "mille milliard(s)"
+          quadrillion: "million(s) de milliards"
 
   datetime:
     distance_in_words:
-      half_a_minute: "une demi-minute"
+      half_a_minute: "une demi‑minute"
       less_than_x_seconds:
-        zero:  "moins d'une seconde"
-        one:   "moins d'une seconde"
+        zero:  "moins d’une seconde"
+        one:   "moins d’une seconde"
         other: "moins de %{count} secondes"
       x_seconds:
         one:   "1 seconde"
         other: "%{count} secondes"
       less_than_x_minutes:
-        zero:  "moins d'une minute"
-        one:   "moins d'une minute"
+        zero:  "moins d’une minute"
+        one:   "moins d’une minute"
         other: "moins de %{count} minutes"
       x_minutes:
         one:   "1 minute"
         other: "%{count} minutes"
       about_x_hours:
-        one:   "environ une heure"
+        one:   "environ une heure"
         other: "environ %{count} heures"
       x_days:
         one:   "1 jour"
         other: "%{count} jours"
       about_x_months:
-        one:   "environ un mois"
+        one:   "environ un mois"
         other: "environ %{count} mois"
       x_months:
         one:   "1 mois"
         other: "%{count} mois"
       about_x_years:
-        one:   "environ un an"
+        one:   "environ un an"
         other: "environ %{count} ans"
       over_x_years:
-        one:   "plus d'un an"
+        one:   "plus d’un an"
         other: "plus de %{count} ans"
       almost_x_years:
-        one:   "presqu'un an"
-        other: "presque %{count} ans"
+        one:   "presqu’un an"
+        other: "presque %{count} ans"
     prompts:
       year:   "Année"
       month:  "Mois"
@@ -93,6 +95,14 @@ fr:
       hour:   "Heure"
       minute: "Minute"
       second: "Seconde"
+
+  time:
+    am: am
+    formats:
+      default: "%d %B %Y %H h %M min %S s"
+      long: "%A %d %B %Y %H h %M"
+      short: "%d %b %H h %M"
+    pm: pm
 
   helpers:
     select:

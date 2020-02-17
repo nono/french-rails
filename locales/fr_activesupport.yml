@@ -2,8 +2,8 @@ fr:
   date:
     formats:
       default: "%d/%m/%Y"
-      short: "%e %b"
-      long: "%e %B %Y"
+      short: "%e %b"
+      long: "%e %B %Y"
     day_names: [lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche]
     abbr_day_names: [lun, mar, mer, jeu, ven, sam, dim]
     month_names: [~, janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
@@ -15,9 +15,9 @@ fr:
 
   time:
     formats:
-      default: "%d %B %Y %H:%M:%S"
-      short: "%d %b %H:%M"
-      long: "%A %d %B %Y %H:%M"
+      default: "%d %B %Y %H:%M:%S"
+      short: "%d %b %H:%M"
+      long: "%A %d %B %Y %H:%M"
     am: "am"
     pm: "pm"
 

@@ -5,15 +5,19 @@ module ActionView
     module TextHelper
 
       # Monkey-patch the pluralize from ActionView::Helpers::TextHelper
-      # to the french grammar rules (ie 0 is singular).
+      # to the french grammar rules (i.e. absolute value < 2 is singular).
       #
       # Example:
-      #   pluralize(0, 'image') => 0 image
-      #   pluralize(1, 'image') => 1 image
-      #   pluralize(2, 'image') => 2 images
+      #   pluralize(0, 'euro')     =>  0 euro
+      #   pluralize(1, 'euro')     =>  1 euro
+      #   pluralize(1.99, 'euro')  =>  1,99 euro
+      #   pluralize(2, 'euro')     =>  2 euros
+      #   pluralize(-1, 'euro')    => -1 euro
+      #   pluralize(-1.99, 'euro') => -1,99 euro
+      #   pluralize(-2, 'euro')    =>  2 euros
       #
       def pluralize(count, singular, plural = nil)
-        "#{count || 0} " + ((count.to_i <= 1) ? singular : (plural || singular.pluralize))
+        "#{count || 0} " + ((count.abs < 2) ? singular : (plural || singular.pluralize))
       end
 
     end
