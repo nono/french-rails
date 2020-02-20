@@ -5,7 +5,7 @@ module ActionView
     module TextHelper
 
       # Monkey-patch the pluralize from ActionView::Helpers::TextHelper
-      # to the french grammar rules (i.e. absolute value < 2 is singular).
+      # to the French grammar rules (i.e. absolute value < 2 is singular).
       #
       # Example:
       #   pluralize(0, 'euro')     =>  0 euro
@@ -17,7 +17,7 @@ module ActionView
       #   pluralize(-2, 'euro')    =>  2 euros
       #
       def pluralize(count, singular, plural = nil)
-        "#{count || 0} " + ((count.abs < 2) ? singular : (plural || singular.pluralize))
+        "#{number_with_delimiter(count, delimiter: " ", separator: ",") || 0} " + ((count.abs < 2) ? singular : (plural || singular.pluralize))
       end
 
     end
