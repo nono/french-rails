@@ -1,4 +1,4 @@
-require 'french_rails/version'
+require './lib/french_rails/version'
 
 Gem::Specification.new do |s|
   s.name             = "french_rails"
@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w(README.md)
   s.files            = Dir["MIT-LICENSE", "README.md", "Gemfile", "lib/**/*.rb", "locales/*.yml"]
   s.require_paths    = ["lib"]
-  s.add_dependency "rails", "~>5.0"
+  s.add_dependency "rails", "~>6.0"
 end
