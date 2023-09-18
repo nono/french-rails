@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w(README.md)
   s.files            = Dir["MIT-LICENSE", "README.md", "Gemfile", "lib/**/*.rb", "locales/*.yml"]
   s.require_paths    = ["lib"]
-  s.add_dependency "rails", "~>6.0"
+  s.add_dependency "rails", "~>7.0"
 end
