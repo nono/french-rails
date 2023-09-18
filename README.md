@@ -19,6 +19,7 @@ traductions des termes utilisés par Rails. Il traduit également les 'new' et
 Attention à utiliser la bonne version du plugin en fonction de la version de
 Rails :
 
+- FrenchRails 0.6 est compatible avec Rails 7
 - FrenchRails 0.5 est compatible avec Rails 6
 - FrenchRails 0.4 est compatible avec Rails 5
 - FrenchRails 0.3 est compatible avec Rails 4
